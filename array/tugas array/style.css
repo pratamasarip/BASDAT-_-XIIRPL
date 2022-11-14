@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 50px;
+    background-color: #f80a0a;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+    float: left;
+}
+.box2{
+    width: 100px;
+    height: 50px;
+    background-color: #e2b009;
+    text-align: center;
+    line-height: 50px;
+    margin: 3px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
