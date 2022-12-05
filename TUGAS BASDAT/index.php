@@ -22,7 +22,7 @@ class SMKJPONE{
 $sekolah = new SMKJPONE();
 
 // isi property
-$sekolah->kepsek = "Pak LILIK"; 
+$sekolah->kepsek = "Pak Lilik"; 
 $sekolah->guru = "Pak Ipul"; 
 $sekolah->murid = "Syarief";
 
