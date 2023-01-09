@@ -1,0 +1,32 @@
+body{
+    background: url(anggota.png);
+}
+.container{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    max-width: 500px;  
+    width: 100%;  
+    padding: 50px;  
+    border-radius: 20px;  
+    background: -webkit-linear-gradient(bottom,#959ff8,#6d96b8);
+    box-shadow:  20px 20px  rgba(166, 166, 194, 0.42);  
+}
+h6{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputWrapper input {  
+    width: 100%;  
+    height: 40px;  
+    padding: 8px 16px;  
+    font-size: 16px;  
+    border-radius: 8px;  
+    border: 1px solid #0f0f0f;  
+    color: #010201;  
+    outline-color: #0011fd;  
+}  
