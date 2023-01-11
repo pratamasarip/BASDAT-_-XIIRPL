@@ -7,10 +7,11 @@ $id_katalog = $_POST['id_katalog'];
 $judul_buku = $_POST['judul_buku'];
 $pengarang = $_POST['pengarang'];
 $thn_terbit = $_POST['thn_terbit'];
+$harga = $_POST['harga'];
 $penerbit = $_POST['penerbit'];
 
 // menginput database
-$notif = mysqli_query($koneksi,"insert into buku values('','$id_katalog','$judul_buku','$pengarang','$thn_terbit','$penerbit')");
+$notif = mysqli_query($koneksi,"insert into buku values('','$id_katalog','$judul_buku','$pengarang','$thn_terbit','$harga','$penerbit')");
 
 if($notif){
     ?>

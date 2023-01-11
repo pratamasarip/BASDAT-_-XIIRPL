@@ -32,6 +32,10 @@
             <br>
             <input type="date" name="thn_terbit"value="<?php echo $meledak ['thn_terbit'];?>" placeholder="Masukkan Tahun Terbit">
             <br>
+            <label>Masukan Harga</label>
+            <br>
+            <input type="text" name="harga"value="<?php echo $meledak ['harga'];?>" placeholder="Masukkan harga">
+            <br>
             <label>Masukan penerbit</label>
             <br>
             <input type="text" name="penerbit"value="<?php echo $meledak ['penerbit'];?>" placeholder="Masukkan Penerbit">

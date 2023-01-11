@@ -5,7 +5,7 @@
     </head>
     <body>
         <div class="card-header">
-            <marquee direction="left">
+            <marquee direction="right">
                 <h1>Selamat Datang Di Index</h1>
             </marquee>
         </div>
@@ -18,6 +18,7 @@
             <th>pengarang</th>
             <th>tahun terbit</th>
             <th>penerbit</th>
+            <th>Aksi</th>
         </tr>
         <!-- menampilkan data buku -->
         <?php 
@@ -32,6 +33,8 @@
             echo "<td>".$thn_terbit = $row['thn_terbit']."</td>";
             echo "<td>".$penerbit = $row['penerbit']."</td>";
         ?>
+
+        <td> <a href="keranjang.php?id_buku=<?php echo $row['id_buku'];?>" class="btn btn-sm btn-primary" style="margin-bottom: 10px">Add To Cart</a></td>
 
         <?php
             echo "</tr>";
@@ -55,6 +58,7 @@
             echo $nama['nama'];
         }
         ?> anda telah Login</center></h4>
+        <a href="update-anggota.php?id_anggota=<?php echo $nama['id_anggota'] ?>" class="btn btn-sm btn-primary" style="margin-bottom: 10px">Customize</a>
         </div>
         </table>
         <br>

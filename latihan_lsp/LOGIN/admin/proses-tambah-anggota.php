@@ -27,4 +27,5 @@ if($notif){
     </script>
     <?php
 }
+header("location:login_admin.php");
 ?>

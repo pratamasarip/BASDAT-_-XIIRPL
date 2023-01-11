@@ -30,6 +30,7 @@
             <tr>
                 <td>admin klik <a href="../admin/login_admin.php">sini</a></td>
             </tr>
+                    <h4>Anda Belum Punya Akun ? Daftar <a href="daftar.php">Disini</a></h4>
         </div>
     </form>
 </body>
